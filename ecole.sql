@@ -11,7 +11,7 @@ CREATE TABLE etudiants (
 );
 
 CREATE TABLE cours (
-    id INT AUTO_INCREMENT PRIMARY KEY,
+    id INT,
     code VARCHAR(32) NOT NULL UNIQUE,
     titre VARCHAR(32) NOT NULL,
 );
