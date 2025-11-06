@@ -8,6 +8,7 @@ CREATE TABLE etudiants (
     prenom VARCHAR(32) NOT NULL,
     date_naissance DATE,
     email VARCHAR(32) UNIQUE,
+    mdp VARCHAR(256) NOT NULL,
 );
 
 CREATE TABLE cours (
